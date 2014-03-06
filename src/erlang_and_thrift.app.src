@@ -1,0 +1,12 @@
+{application, erlang_and_thrift,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlang_and_thrift_app, []}},
+  {env, []}
+ ]}.
